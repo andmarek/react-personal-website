@@ -1,0 +1,11 @@
+My name is Andrew Marek and I'm a junior at Iowa State University studying
+software engineering.  I have a deep passion for learning pretty much anything,
+but this generally happens to manifest itself in computing-related matters.
+
+Within the domain of computer science, I personally enjoy systems-level
+programming and working with C.  Otherwise I'm a Unix nerd who really enjoys
+using Linux.
+
+Outside of computer science, I really enjoy fitness; I ran cross country for
+four years in high school and had the opportunity to go to Nike Cross Nationals
+in Portland, Oregon with my team.

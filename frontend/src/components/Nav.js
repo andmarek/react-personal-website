@@ -7,12 +7,21 @@ This could be for everything.
         align-items: center;
         min-height: 100vh;
 */
+
 const Styles = styled.div`
 /* Basic style */
+    /* let's figure this out at a later date */
+    @font-face {
+        font-family: 'Fantasque-Sans-Mono';
+        src: url('../fonts/fantasque-sans-mono-cufonfonts-webfont/fantasquesansmono-regular.woff') format('woff'); 
+        font-weight: normal;
+        font-style: normal;
+    }
+
     nav {
         padding: 5px 20px;
         width: 99.9%; /* Look at this later */
-        background-color: #eee2dc;
+        background-color: #ebdbb2; /* Background color */
         margin: 0;
     }
     .item {
@@ -35,12 +44,13 @@ const Styles = styled.div`
     
     nav li a {
         /*flex: 1; Do we need this ? */
-        font-family: 'Roboto', sans-serif;
+        /*font-family: 'Roboto', sans-serif;*/
+        font-family: 'Fantasque-Sans-Mono';
         color: #ac3b61;
         text-decoration: none;
     }
     nav li a:hover {
-       color: #123c69; 
+       color: #98971a;  /* Hover color */
        transition: color 1s;
     }
 `;
@@ -49,7 +59,7 @@ const NavBar = () => {
     return (
             <Styles>
                 <nav>
-                    <ul class="menu">
+                    <ul className="menu">
                         <li className="item"> <a href="/test">Home</a> </li>
                         <li className="item"> <a href="/about">About</a> </li>
                         <li className="item"> <a href="/projects">Projects</a> </li>
